@@ -18,7 +18,7 @@ details_url = "https://ngodarpan.gov.in/index.php/ajaxcontroller/show_ngo_info"
 
 sess = requests.Session()
 fp = open('test.csv', 'a')
-for page in range(10076, 77550, 10):
+for page in range(1, 30, 10):
     print(f"Getting results from {page}")
 
     for retry in range(1, 5):
